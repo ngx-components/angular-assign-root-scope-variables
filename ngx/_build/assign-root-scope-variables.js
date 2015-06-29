@@ -1,6 +1,6 @@
 export default function(ngModule, options){
 
-  ngModule.config(assignRootScopeVariables);
+  ngModule.run(assignRootScopeVariables);
 
   /**
    * Assign $rootScope variables
