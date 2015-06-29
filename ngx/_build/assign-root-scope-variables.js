@@ -8,12 +8,12 @@ export default function(ngModule, options){
    * Make sure to inject required dependencies
    * e.g. when assigning a service to a $rootScope variable
    */
-  function assignRootScopeVariables() {
+  function assignRootScopeVariables($rootScope) {
 
     // $rootScope.$state = $state;
   }
 
-  assignRootScopeVariables.$inject = [];
+  assignRootScopeVariables.$inject = ['$rootScope'];
 
 };
 
