@@ -1,6 +1,6 @@
 ![angular-express-header](https://cloud.githubusercontent.com/assets/1859381/8266502/d94e93ce-1731-11e5-9b9d-9b9e58c5369f.png)
 
-## Angular ui-router invalid route handler
+## Angular assign variables to $rootScope
 
 [AngularJS Express](https://github.com/angular-express/angular-express) component to add variables to `$rootScope`.
 
